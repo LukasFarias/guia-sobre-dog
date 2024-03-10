@@ -1,0 +1,168 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+body{
+    background-color: #FFC3A1;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+img{
+    max-width: 100%;
+    
+}
+
+
+
+/* ESTILO CABEÇALHO */
+    header{
+    padding: 25px 4%;
+    background-color: #A75D5D;
+    height: 120px;
+
+}
+    header  .interface-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 85px;
+        
+    }
+
+
+    header a{
+        color: #FFC3A1;
+        text-decoration: none;
+        display: inline-block;
+         transition: 1s;
+    }
+    
+    header a:hover{
+        color: lavender;
+        transform: scale(1.10);
+    }
+
+    header ul{
+        list-style: none;
+    }
+
+    header ul li{
+       display: inline-block;
+       padding: 0 50px;
+       font-size: 20px;
+    }
+
+    header .btn-contato button{
+        padding: 10px 40px;
+        font-size: 18px;
+        font-weight: 600;
+        background-color: #D3756B;
+        border: 0px;
+        border-radius: 30px;
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+    header .btn-contato button:hover{
+        box-shadow: 0px 0px 8px;
+
+    }
+
+    /* ESTILO TOPO DO SITE */
+
+    section.topo-site{
+        padding: 30px ;
+    }
+
+    section.topo-site .flex{
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+    }
+    .topo-site h1{
+        color: #51829B;
+        font-size: 35px;
+    }
+
+    .topo-site h2{
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        background-color: #A75D5D;
+        margin-top: 100px;
+
+    }
+    
+    section.topo-site .p1{
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+    }
+
+    section.topo-site .p2{
+        margin-bottom: 20px;
+    }
+
+
+    .flex-img-topo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+    .flex-img-topo > div{
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.legenda-img{
+    color: white;
+    font-size: 30px;
+    background-color: #124076;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 30px;
+}
+
+.formulario {
+    padding: 30px;
+    text-align: center;
+    color: #51829B;
+    background-color: white;
+
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #D3756B;
+    border: 0px;
+    border-radius: 30px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+
+    
+
+   
+
+    
